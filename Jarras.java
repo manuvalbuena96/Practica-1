@@ -11,6 +11,7 @@ public class Jarra {
 		this.capacidad=capacidadInicial;
 	}
 //  metodos
+<<<<<<< HEAD
         public void llena(){
 		this.cantidad=this.capacidad;
 	}
@@ -18,6 +19,21 @@ public class Jarra {
 		this.cantidad=0;
 	}
 
+=======
+              1
+              2
+              
+     public void llenaDesde(Jarra j){
+         while((this.cantidad<this.capacidad)&&(j.cantidad>0)){
+          	this.cantidad++;
+          	j.cantidad--;
+          }
+         }
+          	
+        public String toString(){
+          return ("("+this.capacidad+","+this.cantidad+")");
+         }
+>>>>>>> e507090c5a5b4e3c9a9143ab6b84267fef714630
 
         public void metodoComunitario(){ 
 // Comentario incluido para pruebas 
