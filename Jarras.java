@@ -12,6 +12,7 @@ public class Jarra {
 	}
 //  metodos
 <<<<<<< HEAD
+<<<<<<< HEAD
         public void llena(){
 		this.cantidad=this.capacidad;
 	}
@@ -34,6 +35,15 @@ public class Jarra {
           return ("("+this.capacidad+","+this.cantidad+")");
          }
 >>>>>>> e507090c5a5b4e3c9a9143ab6b84267fef714630
+=======
+        public void llena(){
+		this.cantidad=this.capacidad;
+	}
+public void vacia(){
+		this.cantidad=0;
+	}
+
+>>>>>>> cf7c7216a60faca6c00685a670fd2b43fcbf1e7d
 
         public void metodoComunitario(){ 
 // Comentario incluido para pruebas 
